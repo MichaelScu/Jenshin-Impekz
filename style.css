@@ -33,6 +33,27 @@ a{
   z-index: 100;
 }
 
+@media only screen and (max-width: 768px){
+  .navigation-bar{
+    position: fixed;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 0.3vh 7vw;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+}
+
+@media only screen and (max-width: 426px){
+  .navigation-bar{
+    display: none;
+
+  }
+}
+
+
 .navbar-left .logo img {
   width: 100%;
 }
@@ -100,6 +121,7 @@ a{
 /* first display */
 .home-background{
   background-image: url(assets/HOME/Eula.Lawrence.full.3336255.jpg);
+  background-position: center;
   background-size: cover;
   justify-content: center;
   align-items: end;
@@ -139,6 +161,7 @@ a{
 }
 
 .link-button li a img{
+  width: 100%;
   align-items: center;
   opacity: 60%;
   transition: 300ms;
@@ -149,6 +172,18 @@ a{
   align-items: center;
   opacity: 100%;
   transition: 300ms;
+}
+
+@media screen and (max-width: 768px){
+  .link-button{
+    scale: 0.8;
+  }
+}
+
+@media screen and (max-width: 426px){
+  .link-button{
+    scale: 0.8;
+  }
 }
 
 /* News */
@@ -188,11 +223,58 @@ a{
   z-index: 1;
 }
 
+@media only screen and (max-width: 426px){
+  .news-title{
+    display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: justify;
+  font-size: 1rem;
+  gap: 4vw;
+  z-index: 1;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .news-title{
+    display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: justify;
+  font-size: 1rem;
+  gap: 4vw;
+  z-index: 1;
+  }
+}
+
 .news-title h1{
   color: white;
   font-family: Tahoma;
   font-weight: lighter;
 
+}
+
+@media screen and (max-width: 768px){
+  .news-title{
+    text-align: center;
+    color: white;
+    font-family: Tahoma;
+    font-weight: lighter;
+  }
+  
+}
+
+@media screen and (max-width: 426px){
+  .news-title{
+    text-align: center;
+    color: white;
+    font-family: Tahoma;
+    font-weight: lighter;
+    font-size: smaller;
+  }
+  
 }
 
 .box-list-container{
@@ -202,8 +284,10 @@ a{
   justify-content: center;
   align-items: center;
   z-index: 1;
-  gap: 4vw;
+  gap: 4vw; 
 }
+
+
 
 .box-container{
   width: 27vw;
@@ -296,6 +380,7 @@ a{
 #mondstadt{
   /* background-color: aquamarine; */
   background-image: url(assets/charregion/Button\ CHaracter\ per\ region.png);
+  background-position: center;
   background-size: cover;
   transition: ease-in-out 500ms;
   display: flex;
@@ -315,9 +400,23 @@ a{
   
 }
 
+/* @media screen and (max-width: 1024px){
+  #mondstadt{
+    background-image: url(assets/charregion/Button\ CHaracter\ per\ region.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    transition: ease-in-out 500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+} */
+
 #liyue{
   /* background-color: red; */
   background-image: url(assets/charregion/2020021114275255981\ 2.png);
+  background-position: center;
   background-size: cover;
   transition: ease-in-out 500ms;
   display: flex;
@@ -338,6 +437,7 @@ a{
 #inazuma{
   /* background-color: purple;*/
   background-image: url(assets/charregion/2020021114275255981\ 3.png);
+  background-position: center;
   background-size: cover;
   transition: ease-in-out 500ms;
   display: flex;
@@ -358,6 +458,7 @@ a{
 #sumeru{
   /* background-color: green; */
   background-image: url(assets/charregion/2020021114275255981\ 4.png);
+  background-position: center;
   background-size: cover;
   transition: ease-in-out 500ms;
   display: flex;
@@ -378,11 +479,14 @@ a{
 #coming-soon{
   /* background-color: yellow; */
   background-image: url(assets/charregion/Group\ 11.png);
+  background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+
 
 /* Footer */
 .about{
@@ -393,16 +497,28 @@ a{
   scroll-snap-align: start;
 }
 
+
+
 .link-sosmed{
   background-color: #111;
   display: flex;
-  padding-left: 7vw;
+  justify-content: start;
+  padding-left: 5%;
+}
+
+@media screen and (max-width: 426px) {
+  .link-sosmed{
+    background-color: #111;
+  display: flex;
+  padding-left: 1%;
+  }
 }
 
 .link-sosmed .icon{
   padding: 0.4vh 1vw;
   display: flex;
-  gap: 2vw;
+  align-content: space-around;
+  gap: 5%;
 }
 .link-sosmed .icon a{
   color: grey;
@@ -415,6 +531,16 @@ a{
 .link-sosmed .icon a:hover {
   color: white;
   transition: 200ms;
+}
+
+@media screen and (max-width: 426px) {
+  .link-sosmed .icon{
+    scale: 0.8;
+    left: 0%;
+    padding: 0.4vh 1vw;
+    display: flex;
+    gap: 2vw;
+  }
 }
 
 .about-info{
@@ -469,14 +595,26 @@ a{
 }
 
 .about-info .about-lisence{
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .about-info .about-lisence p{
   color: gray;
   font-size: 0.8rem;
+}
+
+@media screen and (max-width: 426px){
+  .about-lisence {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+  }
 }
 
 .hoyoverse{
