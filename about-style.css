@@ -32,7 +32,14 @@ a{
     align-items: center;
     z-index: 100;
 }
+
+@media only screen and (max-width: 426px){
+    .navigation-bar{
+      display: none;
   
+    }
+  }
+
 .navbar-left .logo img {
     width: 100%;
 }
@@ -104,6 +111,38 @@ a{
     gap: 5vw;
 }
 
+@media screen and (max-width:769px){
+    .aboutGame{
+        background-image: url(assets/about/f2d6a3a.png);
+        background-position: 100% 100%;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 3vw 0vw;
+        gap: 5vw;
+    }
+}
+
+@media screen and (max-width:426px){
+    .aboutGame{
+        background-image: url(assets/about/f2d6a3a.png);
+        background-position: 100% 100%;
+        background-size: cover;
+        width: 110%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 3vw 0vw;
+        gap: 5vw;
+    }
+}
+
 .aboutGame-title{
     display: flex;
     width: 100%;
@@ -113,6 +152,34 @@ a{
     font-size: 1.7rem;
     gap: 5vw;
     padding-top: 1vw;
+}
+
+@media screen and (max-width: 769px){
+    .aboutGame-title{
+        scale: 0.7;
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: justify;
+        font-size: 1.2rem;
+        gap: 5vw;
+        padding-top: 1vw;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .aboutGame-title{
+        scale: 0.5;
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: justify;
+        font-size: 1.1rem;
+        gap: 5vw;
+        padding-top: 1vw;
+    }
 }
 
 .aboutGame-title h1{
@@ -135,6 +202,20 @@ a{
 .aboutGame-image-box{
     width: 70%;
     height: 100%;
+}
+
+@media screen and (max-width:769px){
+    .aboutGame-image-box{
+        width: 70%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:426px){
+    .aboutGame-image-box{
+        width: 70%;
+        height: 100%;
+    }
 }
 
 .aboutGame-image-box img{
@@ -172,6 +253,26 @@ a{
     letter-spacing: 0.1vw;
 }
 
+@media screen and (max-width: 769px){
+    .aboutGame-description h1{
+        font-family: Tahoma;
+        color: #654F42;
+        text-align: center;
+        letter-spacing: 0.1vw;
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .aboutGame-description h1{
+        font-family: Tahoma;
+        color: #654F42;
+        text-align: center;
+        letter-spacing: 0.1vw;
+        font-size: smaller;
+    }
+}
+
 .aboutGame-description h2{
     font-family: Tahoma;
     font-size: 1.2rem;
@@ -180,9 +281,31 @@ a{
     color: #78604B;
 }
 
+@media screen and (max-width: 769px){
+    .aboutGame-description h2{
+        font-family: Tahoma;
+        font-size: 1.2rem;
+        font-weight: lighter;
+        text-align: justify;
+        color: #78604B;
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .aboutGame-description h2{
+        font-family: Tahoma;
+        font-size: 1.2rem;
+        font-weight: lighter;
+        text-align: justify;
+        color: #78604B;
+        font-size: x-small;
+    }
+}
+
 /* Footer */
 .about{
-    width: 100%;
+    width: 110%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -212,7 +335,27 @@ a{
     color: white;
     transition: 200ms;
 }
+
+@media screen and (max-width: 768px) {
+    .link-sosmed .icon{
+      scale: 0.8;
+      left: 0%;
+      padding: 0.4vh 1vw;
+      display: flex;
+      gap: 2vw;
+    }
+  }
   
+  @media screen and (max-width: 426px) {
+    .link-sosmed .icon{
+      scale: 0.8;
+      left: 0%;
+      padding: 0.4vh 1vw;
+      display: flex;
+      gap: 2vw;
+    }
+  }
+
 .about-info{
     width: 100%;
     height: auto;
@@ -265,9 +408,11 @@ a{
   }
   
 .about-info .about-lisence{
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
   
 .about-info .about-lisence p{
@@ -275,6 +420,16 @@ a{
     font-size: 0.8rem;
 }
   
+@media screen and (max-width: 426px){
+    .about-lisence {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      vertical-align: middle;
+    }
+  }
+
 .hoyoverse{
     display: flex;
     justify-content: center;
