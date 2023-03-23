@@ -33,6 +33,14 @@
     z-index: 100;
   }
   
+  @media only screen and (max-width: 426px){
+    .navigation-bar{
+      display: none;
+  
+    }
+  }
+  
+
   .navbar-left .logo img {
     width: 100%;
   }
@@ -110,6 +118,8 @@
     align-items: center;
   }
   
+
+
   .explore-title {
     display: flex;
     flex-direction: column;
@@ -121,6 +131,7 @@
     row-gap: 0.3vw;
     margin-bottom: 12vw;
   }
+  
   
   .explore-title h1{
     color:white;
@@ -187,6 +198,20 @@
     
   }
 
+  @media screen and (max-width: 426px){
+    .explore-region{
+      display: flex;
+      width: auto;
+      height: auto;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 2;
+      padding-top: 2vw;
+      padding-left: 1vw;
+      position: absolute;
+      bottom: 20%;
+    }
+  }  
   
 .mondstadt::after{
     content: "";
@@ -224,6 +249,35 @@
     margin-bottom: 12vw;
   }
   
+  @media screen and (max-width: 769px){
+    .mondstadt-title{
+      scale: 0.9;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      width: 100%;
+      z-index: 2;
+      row-gap: 0.3vw;
+      margin-bottom: 12vw;
+    }
+  }
+  
+  @media screen and (max-width: 426px){
+    .mondstadt-title{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      width: 100%;
+      z-index: 2;
+      row-gap: 0.3vw;
+      margin-bottom: 12vw;
+    }
+  }
+
   .mondstadt-title h2{
     color:white;
     font-family: Tahoma;
@@ -233,6 +287,16 @@
     
   }
   
+  @media screen and (max-width: 426px){
+    .mondstadt-title h2{
+      color:white;
+      font-family: Tahoma;
+      font-size: 3.5rem;
+      font-weight: lighter;
+      letter-spacing: 0.2rem;
+    }
+  }
+
   .mondstadt-title img{
     width: 25%;
     
@@ -283,6 +347,26 @@
     
   }
   
+@media screen and (max-width:769px){
+  .title h2{
+    color:white;
+    font-family: Tahoma;
+    font-size: 3rem;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+  }
+}
+
+@media screen and (max-width:426px){
+  .title h2{
+    color:white;
+    font-family: Tahoma;
+    font-size: 2rem;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+  }
+}
+
   .title img{
     width: 25%;
     
@@ -299,6 +383,33 @@
     word-spacing: 0.2rem;
     
   }
+
+  @media screen and (max-width:769px){
+    .description{
+      width: 65%;
+      height: auto;
+      
+      color: white;
+      font-family: Tahoma;
+      font-size: 1.2rem;
+      text-align: center;
+      word-spacing: 0.5rem;
+    }
+  }
+
+@media screen and (max-width:426px){
+  .description{
+    width: 65%;
+    height: auto;
+    
+    color: white;
+    font-family: Tahoma;
+    font-size: 1rem;
+    text-align: center;
+    word-spacing: 0.4rem;
+  }
+}
+
   .mondstadt-map2::after{
     content: "";
     position: absolute;
@@ -343,6 +454,14 @@
     padding-left: 7vw;
   }
   
+  @media screen and (max-width: 426px) {
+    .link-sosmed{
+      background-color: #111;
+    display: flex;
+    padding-left: 1%;
+    }
+  }
+
   .link-sosmed .icon{
     padding: 0.4vh 1vw;
     display: flex;
@@ -361,6 +480,26 @@
     transition: 200ms;
   }
   
+  @media screen and (max-width: 768px) {
+    .link-sosmed .icon{
+      scale: 0.8;
+      left: 0%;
+      padding: 0.4vh 1vw;
+      display: flex;
+      gap: 2vw;
+    }
+  }
+  
+  @media screen and (max-width: 426px) {
+    .link-sosmed .icon{
+      scale: 0.8;
+      left: 0%;
+      padding: 0.4vh 1vw;
+      display: flex;
+      gap: 2vw;
+    }
+  }
+
   .about-info{
     width: 100%;
     height: auto;
@@ -413,9 +552,11 @@
   }
   
   .about-info .about-lisence{
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
   
   .about-info .about-lisence p{
@@ -423,6 +564,16 @@
     font-size: 0.8rem;
   }
   
+  @media screen and (max-width: 426px){
+    .about-lisence {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      vertical-align: middle;
+    }
+  }
+
   .hoyoverse{
     display: flex;
     justify-content: center;
