@@ -32,7 +32,15 @@ a{
     align-items: center;
     z-index: 100;
 }
+
+@media only screen and (max-width: 426px){
+    .navigation-bar{
+      display: none;
   
+    }
+  }
+
+
 .navbar-left .logo img {
     width: 100%;
 }
@@ -191,7 +199,20 @@ a{
     z-index: 5;
 }
 
-
+@media screen and (max-width: 769px){
+    .character-info{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        /* justify-content: center; */
+        top: 10%;
+        z-index: 5;
+    }
+}
 
 .character-info .name{
     /* background-color: green; */
@@ -237,6 +258,12 @@ a{
     color: white;
     font-weight: lighter;
     text-align: justify;
+}
+
+@media screen and (max-width: 769px){
+    .description{
+        display: none;
+    }
 }
 
 .char-bar-container{
@@ -323,7 +350,27 @@ a{
     color: white;
     transition: 200ms;
 }
+ 
+@media screen and (max-width: 768px) {
+    .link-sosmed .icon{
+      scale: 0.8;
+      left: 0%;
+      padding: 0.4vh 1vw;
+      display: flex;
+      gap: 2vw;
+    }
+  }
   
+  @media screen and (max-width: 426px) {
+    .link-sosmed .icon{
+      scale: 0.8;
+      left: 0%;
+      padding: 0.4vh 1vw;
+      display: flex;
+      gap: 2vw;
+    }
+  }
+
 .about-info{
     width: 100%;
     height: auto;
@@ -377,8 +424,10 @@ a{
   
 .about-info .about-lisence{
     display: flex;
+    width: 80%;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
   
 .about-info .about-lisence p{
@@ -386,6 +435,16 @@ a{
     font-size: 0.8rem;
 }
   
+@media screen and (max-width: 426px){
+    .about-lisence {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      vertical-align: middle;
+    }
+  }
+
 .hoyoverse{
     display: flex;
     justify-content: center;
