@@ -32,7 +32,15 @@ a{
     align-items: center;
     z-index: 100;
 }
+ 
+@media only screen and (max-width: 426px){
+    .navigation-bar{
+      display: none;
   
+    }
+  }
+  
+
 .navbar-left .logo img {
     width: 100%;
 }
@@ -160,6 +168,21 @@ a{
     bottom: 20%;
 }
   
+@media screen and (max-width: 426px){
+    .explore-region{
+      display: flex;
+      width: auto;
+      height: auto;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 2;
+      padding-top: 2vw;
+      padding-left: 1vw;
+      position: absolute;
+      bottom: 20%;
+    }
+  }
+
 .map a{
     display: flex;
     justify-content: center;
@@ -196,7 +219,35 @@ a{
     z-index: 2;
     row-gap: 0.3vw;
 }
-  
+ 
+@media screen and (max-width: 769px){
+    .title{
+        scale: 0.9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        z-index: 2;
+        row-gap: 0.3vw;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .title{
+        scale: 0.8;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        z-index: 2;
+        row-gap: 0.3vw;
+    }
+}
+
 .title h2{
     color:white;
     font-family: Tahoma;
@@ -205,7 +256,28 @@ a{
     letter-spacing: 0.2rem;
     
 }
-  
+ 
+@media screen and (max-width: 769px){
+    .title h2{
+        color:white;
+        font-family: Tahoma;
+        font-size: 4.5rem;
+        font-weight: lighter;
+        letter-spacing: 0.2rem;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .title h2{
+        color:white;
+        font-family: Tahoma;
+        font-size: 3.5rem;
+        font-weight: lighter;
+        letter-spacing: 0.2rem;
+    }
+}
+
+
 .title img{
     width: 25%;
     
@@ -258,6 +330,21 @@ a{
     margin-bottom: 12vw;
 }
 
+@media screen and (max-width: 426px){
+    .inazuma-title{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      width: 100%;
+      z-index: 2;
+      row-gap: 0.3vw;
+      margin-bottom: 12vw;
+    }
+  }
+
+
 .inazuma-title h2{
     color:white;
     font-family: Tahoma;
@@ -266,6 +353,16 @@ a{
     letter-spacing: 0.2rem;
   
 }
+
+@media screen and (max-width: 426px){
+    .inazuma-title h2{
+      color:white;
+      font-family: Tahoma;
+      font-size: 3.3rem;
+      font-weight: lighter;
+      letter-spacing: 0.2rem;
+    }
+  }
 
 .inazuma-title img{
     width: 25%;
@@ -282,6 +379,19 @@ a{
     text-align: center;
     word-spacing: 0.2rem;
   
+}
+
+@media screen and (max-width: 426px){
+    .inazuma-description{
+        width: 65%;
+        height: auto;
+        
+        color: white;
+        font-family: Tahoma;
+        font-size: 1.1rem;
+        text-align: center;
+        word-spacing: 0.3rem;
+    }
 }
 
 .inazuma-map1{
@@ -346,6 +456,14 @@ a{
     padding-left: 7vw;
 }
   
+@media screen and (max-width: 426px) {
+    .link-sosmed{
+      background-color: #111;
+    display: flex;
+    padding-left: 1%;
+    }
+  }
+
 .link-sosmed .icon{
     padding: 0.4vh 1vw;
     display: flex;
@@ -363,7 +481,27 @@ a{
     color: white;
     transition: 200ms;
 }
+ 
+@media screen and (max-width: 768px) {
+    .link-sosmed .icon{
+      scale: 0.8;
+      left: 0%;
+      padding: 0.4vh 1vw;
+      display: flex;
+      gap: 2vw;
+    }
+  }
   
+  @media screen and (max-width: 426px) {
+    .link-sosmed .icon{
+      scale: 0.8;
+      left: 0%;
+      padding: 0.4vh 1vw;
+      display: flex;
+      gap: 2vw;
+    }
+  }
+
 .about-info{
     width: 100%;
     height: auto;
@@ -415,17 +553,29 @@ a{
     height: 10%;
   }
   
-.about-info .about-lisence{
+  .about-info .about-lisence{
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    text-align: center;
+  }
   
 .about-info .about-lisence p{
     color: gray;
     font-size: 0.8rem;
 }
   
+@media screen and (max-width: 426px){
+    .about-lisence {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      vertical-align: middle;
+    }
+  }
+
 .hoyoverse{
     display: flex;
     justify-content: center;
