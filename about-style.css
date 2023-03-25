@@ -38,7 +38,7 @@ a{
         position: fixed;
         display: flex;
         background-color: rgba(0, 0, 0, 0.6);
-        width: 95%;
+        width: 100%;
         padding: 0.3vh 7vw;
         justify-content: space-between;
         align-items: center;
@@ -146,7 +146,7 @@ a{
         background-image: url(https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/about/f2d6a3a.png?raw=true);
         background-position: 100% 100%;
         background-size: cover;
-        width: 110%;
+        width: 100%;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -170,7 +170,6 @@ a{
 
 @media screen and (max-width: 769px){
     .aboutGame-title{
-        scale: 0.7;
         display: flex;
         width: 100%;
         height: auto;
@@ -184,7 +183,7 @@ a{
 
 @media screen and (max-width: 426px){
     .aboutGame-title{
-        scale: 0.5;
+        scale: 0.8;
         display: flex;
         width: 100%;
         height: auto;
@@ -196,11 +195,31 @@ a{
     }
 }
 
+
+
 .aboutGame-title h1{
     color: white;
     font-family: Tahoma;
     font-weight: lighter;
+    text-align: center;
 
+}
+
+.aboutGame-title img{
+    width: 30%;
+}
+
+@media screen and(max-width: 769px){
+    .aboutGame-title img{
+        scale: 1.5;
+        width: 30%;
+    }
+}
+
+@media screen and(max-width: 426px){
+    .aboutGame-title img{
+        width: 30%;
+    }
 }
 
 .aboutGame-container{
@@ -319,13 +338,23 @@ a{
 
 /* Footer */
 .about{
-    width: 110%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     scroll-snap-align: start;
 }
-  
+
+/* @media screen and (max-width: 426px){
+    .about{
+        width: 113%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        scroll-snap-align: start;
+    }
+} */
+
 .link-sosmed{
     background-color: #111;
     display: flex;
@@ -380,6 +409,7 @@ a{
     gap : 1.5vw;
 }
   
+
 .about-info .logo img{
     margin-top: 7vh;
 }
