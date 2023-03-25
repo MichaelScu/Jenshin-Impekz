@@ -170,7 +170,6 @@ a{
 
 @media screen and (max-width: 769px){
     .aboutGame-title{
-        scale: 0.7;
         display: flex;
         width: 100%;
         height: auto;
@@ -184,7 +183,7 @@ a{
 
 @media screen and (max-width: 426px){
     .aboutGame-title{
-        scale: 0.5;
+        scale: 0.8;
         display: flex;
         width: 100%;
         height: auto;
@@ -208,6 +207,19 @@ a{
 
 .aboutGame-title img{
     width: 30%;
+}
+
+@media screen and(max-width: 769px){
+    .aboutGame-title img{
+        scale: 1.5;
+        width: 30%;
+    }
+}
+
+@media screen and(max-width: 426px){
+    .aboutGame-title img{
+        width: 30%;
+    }
 }
 
 .aboutGame-container{
