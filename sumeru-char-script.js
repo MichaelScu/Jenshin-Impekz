@@ -1,7 +1,7 @@
 const sumeruCharacter = [
-    "assets/charregion/nilou.png",
-    "assets/charregion/nahida.png",
-    "assets/charregion/dehya.png",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/nilou.png?raw=true",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/nahida.png?raw=true",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/dehya.png?raw=true",
 ]
 
 const sumeruName = [
@@ -17,9 +17,9 @@ const sumeruDescription = [
 ]
 
 const sumeruElement = [
-    "assets/charregion/hydro.png",
-    "assets/charregion/dendro.png",
-    "assets/charregion/pyrp.png"
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/hydro.png?raw=true",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/dendro.png?raw=true",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/pyrp.png?raw=true"
 ]
 
 const charBoxes = document.querySelectorAll(".char-box")
