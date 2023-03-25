@@ -107,7 +107,7 @@ a{
 }
   
 .explore{
-    background-image: url("https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/Explore/773390079.jpg?raw=true");
+    background-image: url("assets/Explore/773390079.jpg");
     background-size: cover;
     position: relative;
     width: 100%;
@@ -305,7 +305,7 @@ a{
 }
 
 .inazuma{
-    background-image: url("https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/Explore/2021071920203256336.jpg?raw=true");
+    background-image: url("assets/Explore/2021071920203256336.jpg");
     background-size: cover;
     position: relative;
     width: 100%;
@@ -395,7 +395,7 @@ a{
 }
 
 .inazuma-map1{
-    background-image: url(https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/Explore/2021071619023818196.jpg?raw=true);
+    background-image: url(assets/Explore/2021071619023818196.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -422,7 +422,7 @@ a{
     background-color: rgba(0, 0, 0, 0.5);
 }
 .inazuma-map2{
-    background-image: url(https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/Explore/2021071920211156611.jpg?raw=true);
+    background-image: url(assets/Explore/2021071920211156611.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -498,7 +498,7 @@ a{
       left: 0%;
       padding: 0.4vh 1vw;
       display: flex;
-      gap: 2vw;
+      gap: 5vw;
     }
   }
 
