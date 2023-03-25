@@ -651,8 +651,9 @@ a{
 .link-sosmed .icon{
   padding: 0.4vh 1vw;
   display: flex;
-  gap: 5%;
+  gap: 2vw;
 }
+
 .link-sosmed .icon a{
   color: grey;
   text-decoration: none;
