@@ -33,6 +33,20 @@ a{
     z-index: 100;
 }
 
+@media only screen and (max-width: 769px){
+    .navigation-bar{
+        position: fixed;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 95%;
+        padding: 0.3vh 7vw;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+  
+    }
+  }
+
 @media only screen and (max-width: 426px){
     .navigation-bar{
       display: none;
@@ -98,7 +112,7 @@ a{
 /* about game */
 
 .aboutGame{
-    background-image: url(https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/about/f2d6a3a.png?raw=true);
+    background-image: url(assets/about/f2d6a3a.png);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -113,7 +127,7 @@ a{
 
 @media screen and (max-width:769px){
     .aboutGame{
-        background-image: url(https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/about/f2d6a3a.png?raw=true);
+        background-image: url(assets/about/f2d6a3a.png);
         background-position: 100% 100%;
         background-size: cover;
         width: 100%;
@@ -129,7 +143,7 @@ a{
 
 @media screen and (max-width:426px){
     .aboutGame{
-        background-image: url(https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/about/f2d6a3a.png?raw=true);
+        background-image: url(assets/about/f2d6a3a.png);
         background-position: 100% 100%;
         background-size: cover;
         width: 110%;
@@ -305,12 +319,11 @@ a{
 
 /* Footer */
 .about{
-    width: 100%;
+    width: 110%;
     height: auto;
     display: flex;
     flex-direction: column;
     scroll-snap-align: start;
-    justify-content: center;
 }
   
 .link-sosmed{
@@ -353,7 +366,7 @@ a{
       left: 0%;
       padding: 0.4vh 1vw;
       display: flex;
-      gap: 2vw;
+      gap: 5vw;
     }
   }
 
