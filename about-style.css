@@ -325,7 +325,17 @@ a{
     flex-direction: column;
     scroll-snap-align: start;
 }
-  
+
+@media screen and (max-width: 426px){
+    .about{
+        width: 112%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        scroll-snap-align: start;
+    }
+}
+
 .link-sosmed{
     background-color: #111;
     display: flex;
@@ -380,6 +390,18 @@ a{
     gap : 1.5vw;
 }
   
+/* @media screen and (max-width: 426px){
+    .about-info{
+        width: 112%;
+        height: auto;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap : 1.5vw;
+    }
+} */
+
 .about-info .logo img{
     margin-top: 7vh;
 }
