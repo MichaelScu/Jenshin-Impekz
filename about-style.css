@@ -202,7 +202,12 @@ a{
     color: white;
     font-family: Tahoma;
     font-weight: lighter;
+    text-align: center;
 
+}
+
+.aboutGame-title img{
+    width: 30%;
 }
 
 .aboutGame-container{
