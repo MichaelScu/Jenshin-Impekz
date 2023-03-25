@@ -33,6 +33,13 @@ a{
     z-index: 100;
 }
   
+@media only screen and (max-width: 426px){
+  .navigation-bar{
+    display: none;
+
+  }
+}
+
 .navbar-left .logo img {
     width: 100%;
 }
@@ -122,7 +129,21 @@ a{
     background-color: white;
     border-radius: 10px;
   }
-  
+
+@media screen and (max-width: 426px){
+  .form-container{
+    position: relative;
+    z-index: 2;
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+  }
+}
+
   .main-container {
     display: flex;
     align-items: center;
@@ -130,7 +151,8 @@ a{
     padding: 3vh 8vw;
     gap: 4vh;
   }
-  
+
+
   .main-container p {
     color: rgba(0, 0, 0, 0.3);
     font-size: 0.75rem;
@@ -188,6 +210,12 @@ a{
     width: 12%;
   }
   
+  @media screen and (max-width: 426px){
+    .social-media-list img{
+      width: 20%;
+    }
+  }
+
   .register-section {
     background-color: rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -242,7 +270,15 @@ a{
     display: flex;
     padding-left: 7vw;
 }
-  
+ 
+@media screen and (max-width: 426px) {
+  .link-sosmed{
+    background-color: #111;
+  display: flex;
+  padding-left: 1%;
+  }
+}
+
 .link-sosmed .icon{
     padding: 0.4vh 1vw;
     display: flex;
@@ -260,7 +296,27 @@ a{
     color: white;
     transition: 200ms;
 }
-  
+ 
+@media screen and (max-width: 768px) {
+  .link-sosmed .icon{
+    scale: 0.8;
+    left: 0%;
+    padding: 0.4vh 1vw;
+    display: flex;
+    gap: 2vw;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .link-sosmed .icon{
+    scale: 0.8;
+    left: 0%;
+    padding: 0.4vh 1vw;
+    display: flex;
+    gap: 2vw;
+  }
+}
+
 .about-info{
     width: 100%;
     height: auto;
@@ -313,16 +369,28 @@ a{
   }
   
 .about-info .about-lisence{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
   
 .about-info .about-lisence p{
     color: gray;
     font-size: 0.8rem;
 }
-  
+ 
+@media screen and (max-width: 426px){
+  .about-lisence {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+  }
+}
+
 .hoyoverse{
     display: flex;
     justify-content: center;
