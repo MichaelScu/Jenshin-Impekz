@@ -146,7 +146,7 @@ a{
         background-image: url(https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/about/f2d6a3a.png?raw=true);
         background-position: 100% 100%;
         background-size: cover;
-        width: 112%;
+        width: 100%;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -195,6 +195,8 @@ a{
         padding-top: 1vw;
     }
 }
+
+
 
 .aboutGame-title h1{
     color: white;
@@ -326,15 +328,15 @@ a{
     scroll-snap-align: start;
 }
 
-@media screen and (max-width: 426px){
+/* @media screen and (max-width: 426px){
     .about{
-        width: 112%;
+        width: 113%;
         height: auto;
         display: flex;
         flex-direction: column;
         scroll-snap-align: start;
     }
-}
+} */
 
 .link-sosmed{
     background-color: #111;
@@ -390,17 +392,6 @@ a{
     gap : 1.5vw;
 }
   
-/* @media screen and (max-width: 426px){
-    .about-info{
-        width: 112%;
-        height: auto;
-        background-color: black;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        gap : 1.5vw;
-    }
-} */
 
 .about-info .logo img{
     margin-top: 7vh;
