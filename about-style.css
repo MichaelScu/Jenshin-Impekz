@@ -38,7 +38,7 @@ a{
         position: fixed;
         display: flex;
         background-color: rgba(0, 0, 0, 0.6);
-        width: 95%;
+        width: 100%;
         padding: 0.3vh 7vw;
         justify-content: space-between;
         align-items: center;
@@ -146,7 +146,7 @@ a{
         background-image: url(https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/about/f2d6a3a.png?raw=true);
         background-position: 100% 100%;
         background-size: cover;
-        width: 100%;
+        width: 112%;
         height: 100%;
         display: flex;
         justify-content: center;
