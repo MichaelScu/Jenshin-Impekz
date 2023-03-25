@@ -651,7 +651,6 @@ a{
 .link-sosmed .icon{
   padding: 0.4vh 1vw;
   display: flex;
-  align-content: space-around;
   gap: 5%;
 }
 .link-sosmed .icon a{
@@ -683,7 +682,7 @@ a{
     left: 0%;
     padding: 0.4vh 1vw;
     display: flex;
-    gap: 5vw;
+    gap: 2vw;
   }
 }
 
