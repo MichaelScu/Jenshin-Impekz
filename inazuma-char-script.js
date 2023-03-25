@@ -1,7 +1,7 @@
 const inazumaCharacter = [
-    "assets/charregion/ayaka.png",
-    "assets/charregion/yoimiya.png",
-    "assets/charregion/RAIDEN.png",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/ayaka.png?raw=true",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/yoimiya.png?raw=true",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/RAIDEN.png?raw=true",
 ]
 
 const inazumaName = [
@@ -17,9 +17,9 @@ const inazumaDescription = [
 ]
 
 const inazumaElement = [
-    "assets/charregion/cryo.png",
-    "assets/charregion/pyrp.png",
-    "assets/charregion/elec.png"
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/cryo.png?raw=true",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/pyrp.png?raw=true",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/elec.png?raw=true"
 ]
 
 const charBoxes = document.querySelectorAll(".char-box")
