@@ -1,7 +1,7 @@
 const liyueCharacter = [
-    "assets/charregion/zhongli.png",
-    "assets/charregion/ganyu.png",
-    "assets/charregion/hutao.png",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/zhongli.png?raw=true",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/ganyu.png?raw=true",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/hutao.png?raw=true",
 ]
 
 const liyueName = [
@@ -17,9 +17,9 @@ const liyueDescription = [
 ]
 
 const liyueElement = [
-    "assets/charregion/geo.png",
-    "assets/charregion/cryo.png",
-    "assets/charregion/pyrp.png"
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/geo.png?raw=true",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/cryo.png?raw=true",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/pyrp.png?raw=true"
 ]
 
 const charBoxes = document.querySelectorAll(".char-box")
