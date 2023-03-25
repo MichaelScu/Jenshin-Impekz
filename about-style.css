@@ -112,7 +112,7 @@ a{
 /* about game */
 
 .aboutGame{
-    background-image: url(assets/about/f2d6a3a.png);
+    background-image: url(https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/about/f2d6a3a.png?raw=true);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -127,7 +127,7 @@ a{
 
 @media screen and (max-width:769px){
     .aboutGame{
-        background-image: url(assets/about/f2d6a3a.png);
+        background-image: url(https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/about/f2d6a3a.png?raw=true);
         background-position: 100% 100%;
         background-size: cover;
         width: 100%;
@@ -143,7 +143,7 @@ a{
 
 @media screen and (max-width:426px){
     .aboutGame{
-        background-image: url(assets/about/f2d6a3a.png);
+        background-image: url(https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/about/f2d6a3a.png?raw=true);
         background-position: 100% 100%;
         background-size: cover;
         width: 110%;
