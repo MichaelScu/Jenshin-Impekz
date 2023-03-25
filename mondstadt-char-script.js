@@ -1,7 +1,7 @@
 const mondstadtCharacter = [
-    "assets/charregion/jean.png",
-    "assets/charregion/AMBER.png",
-    "assets/charregion/eula.png",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/jean.png?raw=true",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/AMBER.png?raw=true",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/eula.png?raw=true",
 ]
 
 const mondstadtName = [
@@ -17,9 +17,9 @@ const mondstadtDescription = [
 ]
 
 const mondstadtElement = [
-    "assets/charregion/anemo.png",
-    "assets/charregion/pyrp.png",
-    "assets/charregion/cryo.png"
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/anemo.png?raw=true",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/pyrp.png?raw=true",
+    "https://github.com/MichaelScu/Jenshin-Impekz/blob/main/assets/charregion/cryo.png?raw=true"
 ]
 
 const charBoxes = document.querySelectorAll(".char-box")
